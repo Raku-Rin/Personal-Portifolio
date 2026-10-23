@@ -38,7 +38,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="font-sans antialiased">
         {children}
-        {process.env.NODE_ENV === 'production' && process.env.GITHUB_PAGES !== 'true' && <Analytics />}
+        {process.env.NODE_ENV === 'production' && process.env.GITHUB_PAGES !== 'true' && process.env.STATIC_EXPORT !== 'true' && <Analytics />}
       </body>
     </html>
   )
