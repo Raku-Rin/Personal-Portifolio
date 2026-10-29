@@ -1,6 +1,6 @@
 // Connected image ribbon with the approved accelerating scroll progression.
 export async function createSpiral(images,{progress=()=>{},reduced=false,preview=()=>{}}={}){
- const host=document.querySelector('#spiral-scene'),hero=document.querySelector('.hero'),container=document.querySelector('.hero__container'),title=document.querySelector('.hero__title');
+ const host=document.querySelector('#spiral-scene'),hero=document.querySelector('.hero'),container=document.querySelector('.hero__container'),title=document.querySelector('.hero__title'),intro=document.querySelector('.hero__subtitle');
  host.replaceChildren();host.classList.add('card-spiral');
  const stage=document.createElement('div'),world=document.createElement('div');stage.className='card-spiral__stage';world.className='card-spiral__world';stage.append(world);host.append(stage);
  let loaded=0,active=false,frame=0;
@@ -14,8 +14,9 @@ export async function createSpiral(images,{progress=()=>{},reduced=false,preview
   const H=innerHeight,W=innerWidth,edge=container.getBoundingClientRect().bottom;
   hero.style.visibility=edge<=0?'hidden':'visible';if(edge<=0)return;
   const y=reduced?0:Math.max(0,scrollY),q=Math.min(1,y/(H*.72)),travel=H*.72*(q**3-.5*q**4)+Math.max(0,y-H*.72),turn=(y*1.8+travel*.2)/H;
-  const radius=W*(W<600?.33:.255),width=radius*step,height=width/1.5,pitch=height*1.45/(2*Math.PI),depth=radius*.72;
-  stage.style.top=Math.max(H*(W<600?.37:.42),title.offsetTop+title.offsetHeight+32)+H*.06+'px';
+  const radius=W<600?W*.33:Math.min(W*.255,H*.43),width=radius*step,height=width/1.5,pitch=height*1.45/(2*Math.PI),depth=radius*.72;
+  const textBottom=Math.max(title.offsetTop+title.offsetHeight,intro?intro.offsetTop+intro.offsetHeight:0);
+  stage.style.top=Math.max(H*.42,textBottom+Math.max(44,H*.05))+'px';
   world.style.transform='translateY('+(height*.7-y*.42-travel*.4)+'px)';
   panels.forEach(({strips,item},i)=>{
    const imageRatio=item.w/item.h,coverWidth=Math.max(width,height*imageRatio),coverHeight=coverWidth/imageRatio;
@@ -28,7 +29,8 @@ export async function createSpiral(images,{progress=()=>{},reduced=false,preview
     strip.style.filter='blur('+(Math.max(0,.65-n)*1.2)+'px) brightness('+(.65+n*.35)+')';
    });
   });
-  title.style.transform='translateY('+(-Math.min(y*.15,65))+'px)';title.style.opacity=.72*(1-Math.min(1,y/(H*.85)));
+  title.style.transform='translateY('+(-Math.min(y*.15,65))+'px)';title.style.opacity=1-Math.min(1,y/(H*.85));
+  if(intro)intro.style.transform='translate(-50%,'+(-y*.6)+'px)';
  }
  function request(){if(active&&!frame&&!document.hidden)frame=requestAnimationFrame(draw)}
  window.addEventListener('scroll',request,{passive:true});window.addEventListener('resize',request);document.addEventListener('visibilitychange',request);

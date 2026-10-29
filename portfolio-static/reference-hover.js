@@ -6,10 +6,11 @@ export function setupReferenceHover(reduced){
  cursor.innerHTML='<div class="custom_cursor__inner"><div class="custom_cursor__center"></div></div><div class="custom_cursor__crosshair custom_cursor__crosshair--top"></div><div class="custom_cursor__crosshair custom_cursor__crosshair--right"></div><div class="custom_cursor__crosshair custom_cursor__crosshair--bottom"></div><div class="custom_cursor__crosshair custom_cursor__crosshair--left"></div><div class="custom_cursor__link UI_1"><span class="arrow-link"><span class="arrow-link__label"><span class="arrow-link__label-text"></span></span><span class="arrow-link__arrow"></span></span><div class="top-left"></div><div class="top-right"></div><div class="bottom-left"></div><div class="bottom-right"></div></div>';
  document.body.append(cursor);
  const card=cursor.querySelector('.custom_cursor__link'),text=card.querySelector('.arrow-link__label-text'),lines=[...cursor.querySelectorAll('.custom_cursor__crosshair')];
- let target=null,cover=null,x=0,y=0,tx=0,ty=0,frame=0,last=0,visible=false;
+ let target=null,cover=null,x=0,y=0,tx=0,ty=0,frame=0,last=0,visible=false,freePointer=false;
  function classify(node){
   target?.classList.remove('custom_cursor__current-link');
-  target=node?.closest('a,button,.interactive')||null;cover=null;
+  freePointer=!!node?.closest('#spiral-scene');
+  target=freePointer?null:node?.closest('a,button,.interactive')||null;cover=null;
   const disabled=node?.closest('.custom_cursor__disable-hover');
   const labelled=target&&!disabled?node.closest('[data-cursor-label]'):null;
   cursor.classList.toggle('custom_cursor__hovering',!!target&&!disabled);
@@ -19,7 +20,7 @@ export function setupReferenceHover(reduced){
   cursor.classList.toggle('custom_cursor__covering',!!cover);request();
  }
  function request(){if(!frame&&visible&&!document.hidden)frame=requestAnimationFrame(draw)}
- function draw(now){frame=0;const dt=Math.min(50,now-(last||now-16));last=now;const r=cover?.getBoundingClientRect(),px=r?r.left+r.width/2:tx,py=r?r.top+r.height/2:ty,a=r||reduced?1:Math.min(1,dt*.01);x+=(px-x)*a;y+=(py-y)*a;
+ function draw(now){frame=0;const dt=Math.min(50,now-(last||now-16));last=now;const r=cover?.getBoundingClientRect(),px=r?r.left+r.width/2:tx,py=r?r.top+r.height/2:ty,a=r||reduced||freePointer?1:Math.min(1,dt*.01);x+=(px-x)*a;y+=(py-y)*a;
   cursor.style.left=`${x}px`;cursor.style.top=`${y}px`;
   const [top,right,bottom,left]=lines;
   Object.assign(top.style,{left:`${x}px`,height:`${Math.max(0,y-(r?.height||0)/2)}px`});
@@ -31,7 +32,7 @@ export function setupReferenceHover(reduced){
  }
  document.addEventListener('pointermove',e=>{if(e.pointerType==='touch')return;tx=e.clientX;ty=e.clientY;visible=true;cursor.classList.add('custom_cursor__visible');request()},{passive:true});
  document.addEventListener('pointerover',e=>{if(e.pointerType!=='touch')classify(e.target)});
- document.documentElement.addEventListener('pointerleave',()=>{visible=false;cursor.classList.remove('custom_cursor__visible');classify(null)});
+ document.documentElement.addEventListener('pointerleave',()=>{visible=false,freePointer=false;cursor.classList.remove('custom_cursor__visible');classify(null)});
  window.addEventListener('scroll',()=>{classify(document.elementFromPoint(tx,ty));request()},{passive:true});
  window.addEventListener('resize',request);
 }

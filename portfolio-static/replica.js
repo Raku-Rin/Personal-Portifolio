@@ -1,5 +1,5 @@
-import {setupReferenceHover,setupCapabilityAccordion,setupImageFollow} from './reference-hover.js?v=image-follow';
-import {createSpiral} from './card-spiral.js?v=20261028';
+import {setupReferenceHover,setupCapabilityAccordion,setupImageFollow} from './reference-hover.js?v=20261029-free-pointer';
+import {createSpiral} from './card-spiral.js?v=20261029-responsive';
 const $=(s,root=document)=>root.querySelector(s),$$=(s,root=document)=>[...root.querySelectorAll(s)];
 const materials=await fetch('./material-slots.json',{cache:'no-store'}).then(r=>r.json());
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches||new URLSearchParams(location.search).has('reduced-motion');
@@ -24,8 +24,6 @@ async function wipe(change){if(wiping)return;wiping=true;if(reduced){await chang
  await phase(true);await change();await phase(false);grid.style.display='none';wiping=false;
 }
 const menu=$('.navigation__menubutton'),overlay=$('.navigation__overlay'),logo=$('.navigation__logo'),nav=$('.navigation__menu:not(.navigation__background)'),bg=$('.navigation__background'),hero=$('.hero__container');let menuOpen=false;
-const navIntro=$('.hero__subtitle');
-if(navIntro){navIntro.classList.add('navigation__intro');$('.app').append(navIntro);}
 function navPosition(){if(!menu)return;const h=menu.getBoundingClientRect().height,w=innerWidth,edge=hero?hero.getBoundingClientRect().bottom:0,rest=w<=768?0:w*(w<=1280?.289:.27),y=menuOpen?0:Math.max(0,Math.min(rest,edge-h));
  document.documentElement.style.setProperty('--nav-y',`${y}px`);document.documentElement.style.setProperty('--nav-h',`${h}px`);
  const light=!menuOpen&&edge<=y+h+.5;document.body.classList.toggle('nav-light',light);logo.classList.toggle('navigation__logo--fixed',light);logo.classList.toggle('navigation__logo--dark',menuOpen);nav?.classList.toggle('navigation__menu--fixed',light);nav?.classList.toggle('navigation__menu--on-top',menuOpen);
