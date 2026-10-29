@@ -30,7 +30,6 @@ export async function createSpiral(images,{progress=()=>{},reduced=false,preview
    });
   });
   title.style.transform='translateY('+(-Math.min(y*.15,65))+'px)';title.style.opacity=1-Math.min(1,y/(H*.85));
-  if(intro)intro.style.transform='translate(-50%,'+(-y*.6)+'px)';
  }
  function request(){if(active&&!frame&&!document.hidden)frame=requestAnimationFrame(draw)}
  window.addEventListener('scroll',request,{passive:true});window.addEventListener('resize',request);document.addEventListener('visibilitychange',request);

@@ -1,5 +1,5 @@
 import {setupReferenceHover,setupCapabilityAccordion,setupImageFollow} from './reference-hover.js?v=20261029-free-pointer';
-import {createSpiral} from './card-spiral.js?v=20261029-responsive';
+import {createSpiral} from './card-spiral.js?v=20261029-fixed-intro';
 const $=(s,root=document)=>root.querySelector(s),$$=(s,root=document)=>[...root.querySelectorAll(s)];
 const materials=await fetch('./material-slots.json',{cache:'no-store'}).then(r=>r.json());
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches||new URLSearchParams(location.search).has('reduced-motion');
@@ -12,7 +12,6 @@ if($('#spiral-poster'))$('#spiral-poster').src=materials.heroFallback;
 if($('#inline-loader img'))$('#inline-loader img').src=materials.openingGraphic;
 function preview(src,label='Project image'){if(!dialog)return;$('img',dialog).src=src;$('img',dialog).alt=label;dialog.showModal()}
 $('button',dialog)?.addEventListener('click',()=>dialog.close());dialog?.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
-$$('[data-image-preview]').forEach(button=>button.addEventListener('click',()=>preview($('img',button.closest('.static-media')).src)));
 
 // A brief coarse-pixel wipe is shared by the menu and local page navigation.
 const grid=$('#transition-grid');let wiping=false;
