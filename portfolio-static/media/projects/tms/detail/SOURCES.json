@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-28",
+  "source": "Five images supplied by Rin in this chat",
+  "images": [
+    {
+      "file": "tms-monitor-office.png",
+      "source": "C:\\Users\\Rin\\AppData\\Local\\Temp\\codex-clipboard-30cfa15b-dbcc-4af7-a15e-a0aa065531ac.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c90dacbbcd2f1770897da6c2d7418d8e2c62e520ef4db0b55712b5b3bd50b309",
+      "alt": "TMS transport monitoring interface on a desktop display",
+      "processing": "Unchanged user-supplied image"
+    },
+    {
+      "file": "tms-research-and-benchmark.png",
+      "source": "C:\\Users\\Rin\\AppData\\Local\\Temp\\codex-clipboard-f63c6467-eb23-42db-aede-b6e6bee768d5.png",
+      "width": 2030,
+      "height": 1033,
+      "sha256": "fd02d35c9009f3fbfd13e16d3ed0c54c3baea93b7dee1db87aa32976dd90c63d",
+      "alt": "TMS research, user interviews and competitor interface references",
+      "processing": "Unchanged user-supplied image"
+    },
+    {
+      "file": "tms-project-contract-before.png",
+      "source": "C:\\Users\\Rin\\AppData\\Local\\Temp\\codex-clipboard-9ae25e2a-78c8-4f8b-a71d-7a427c563e81.png",
+      "width": 908,
+      "height": 511,
+      "sha256": "fbfbb86a085d2eff20e329a7e56edb5296eb1665c5d33ec50237fe17280a32e6",
+      "alt": "Earlier project contract interface",
+      "processing": "Unchanged user-supplied image"
+    },
+    {
+      "file": "tms-project-contract-after.png",
+      "source": "C:\\Users\\Rin\\AppData\\Local\\Temp\\codex-clipboard-182f98eb-92a2-4adb-8f1c-5e7349c6dbdc.png",
+      "width": 1440,
+      "height": 915,
+      "sha256": "02e5196eb852d3ac3236514c7b374bc403bc65fb278a323aa47d240ee2f830c2",
+      "alt": "TMS project contract interface with status summaries and filters",
+      "processing": "Unchanged user-supplied image"
+    },
+    {
+      "file": "tms-project-contract-presentation.png",
+      "source": "C:\\Users\\Rin\\AppData\\Local\\Temp\\codex-clipboard-be329f61-db7c-4fe7-af34-b4670ee0d52e.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6bf0ef2c2980cb2c94f3a808bcd145c62f969237ea2cb1fcb93b002a6db9c5b6",
+      "alt": "Project contract redesign presentation with laptop mockup and status summaries",
+      "processing": "Unchanged user-supplied image"
+    },
+    {
+      "file": "tms-inquiry-before.png",
+      "source": "C:\\Users\\Rin\\AppData\\Local\\Temp\\codex-clipboard-ea26c660-4c67-4f3a-ab5b-493f50feea12.png",
+      "width": 812,
+      "height": 457,
+      "sha256": "c60942485ec562c2ad144c894742de0ab04f0d460598b86d5f4d6454da43270a",
+      "alt": "Earlier inquiry centre with dense demand cards",
+      "processing": "Unchanged user-supplied image"
+    },
+    {
+      "file": "tms-inquiry-after.png",
+      "source": "C:\\Users\\Rin\\AppData\\Local\\Temp\\codex-clipboard-f0ecac4f-ff3b-4a79-a218-fbaa5989fcd0.png",
+      "width": 812,
+      "height": 456,
+      "sha256": "0639b6d375a0844413894c6eed8b90f2008b46ced6be29dbaf8a8dcc5283ac72",
+      "alt": "Redesigned inquiry centre with route filters and detailed quote cards",
+      "processing": "Unchanged user-supplied image"
+    },
+    {
+      "file": "tms-inquiry-information-presentation.png",
+      "source": "C:\\Users\\Rin\\AppData\\Local\\Temp\\codex-clipboard-b5f99f76-3a3a-4141-b655-b548af224912.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "39a424cd9696ad45d1fcc83bfafb870fd7cc6d8251a9844a28d0eaba6f71d534",
+      "alt": "Inquiry centre information hierarchy comparison",
+      "processing": "Unchanged user-supplied image"
+    },
+    {
+      "file": "tms-vehicle-monitoring-before.png",
+      "source": "C:\\Users\\Rin\\AppData\\Local\\Temp\\codex-clipboard-3791ebbb-c568-4757-b00a-200366f18f1f.png",
+      "width": 800,
+      "height": 450,
+      "sha256": "eb3ec0402923422d8e8ac0d706421eeb47f209dfae82611023e9743a2cf35434",
+      "alt": "Earlier vehicle monitoring map and vehicle details",
+      "processing": "Unchanged user-supplied image"
+    },
+    {
+      "file": "tms-vehicle-monitoring-after.png",
+      "source": "C:\\Users\\Rin\\AppData\\Local\\Temp\\codex-clipboard-311a70bf-4708-4b92-bea5-80b4f2f55eb5.png",
+      "width": 800,
+      "height": 492,
+      "sha256": "2df8516c21d3dc66e18d5bacc27a11f079ad26fc88588b1f27ec1ccd2a45fa58",
+      "alt": "Redesigned vehicle monitoring with alert list and contextual handling panel",
+      "processing": "Unchanged user-supplied image"
+    },
+    {
+      "file": "tms-alert-handling-presentation.png",
+      "source": "C:\\Users\\Rin\\AppData\\Local\\Temp\\codex-clipboard-4a54465b-216e-4e86-ab02-e82b38c7c018.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b6e774ac4a8b8fa351b85174728bd9d8e743bf971ef9bc9f5a3538b44462ad80",
+      "alt": "Alert handling presentation with processing status, actions and records",
+      "processing": "Unchanged user-supplied image"
+    }
+  ]
+}

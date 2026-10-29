@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "build:cloudflare": "node scripts/build-cloudflare.mjs",
+    "build": "node scripts/build-portfolio.mjs",
+    "build:cloudflare": "node scripts/build-portfolio.mjs",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build:legacy": "next build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

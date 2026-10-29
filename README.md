@@ -39,3 +39,9 @@ To check the Cloudflare build locally without publishing:
 ```sh
 pnpm exec wrangler deploy --dry-run
 ```
+
+## Current portfolio (2026-10-29)
+
+The current static portfolio lives in `portfolio-static/`. Run `npm run build` to copy it to `out/`. Both GitHub Pages and the existing Cloudflare Worker use this export. All asset paths are local and relative, supporting the GitHub Pages subpath.
+
+The previous website is preserved in Git history and the `before-portfolio-2026-10-29` tag (commit `2920cff`). Its Next.js sources also remain in this repository; `build:legacy` builds them.

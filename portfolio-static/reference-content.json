@@ -1,0 +1,372 @@
+{
+  "_updatedAt": "2026-05-28T10:48:01Z",
+  "capabilities": [
+    {
+      "_key": "6f64430b8fe8",
+      "label": "Experience Strategy & Design",
+      "number": "[ 04 ]",
+      "videoTitle": "Fast paced showreel edit of Studio Dialect's experience strategy and design projects"
+    },
+    {
+      "_key": "8b66a77d9a68",
+      "label": "3D Visualisation",
+      "number": "[ 01 ]",
+      "videoTitle": "Fast paced showreel edit of Studio Dialect's 3D visualisation projects"
+    },
+    {
+      "_key": "10f6e680b098",
+      "label": "Rapid Concept Prototyping",
+      "number": "[ 05 ]",
+      "videoTitle": "Fast paced showreel edit of Studio Dialect's rapid concept prototyping projects"
+    },
+    {
+      "_key": "55e851d3e687",
+      "label": "Motion & Production",
+      "number": "[ 02 ]",
+      "videoTitle": "Fast paced showreel edit of Studio Dialect's motion and production projects"
+    },
+    {
+      "_key": "5093792c4528",
+      "label": "Website & App Experience",
+      "number": "[ 03 ]",
+      "videoTitle": "Fast paced showreel edit of Studio Dialect's web and experience projects"
+    }
+  ],
+  "capabilitiesCallToAction": {
+    "label": "START A PROJECT",
+    "url": "/contact"
+  },
+  "capabilitiesImage": {
+    "_type": "image",
+    "alt": "Dramatic 3D rendered close up of a deep blue McLaren Artura Spider",
+    "asset": {
+      "_ref": "image-195250563f03d6423593b63f7e35ba5d30964671-568x568-jpg",
+      "_type": "reference"
+    }
+  },
+  "contactInfo": {
+    "address": "73 Tib St,\nManchester,\nM4 1LS",
+    "status": "status open",
+    "time": "09:45"
+  },
+  "heroSubtitle": "Award-winning motion, design and interactive experiences that connect culture, technology, and contemporary aesthetics.",
+  "heroTitle": [
+    {
+      "_key": "befb465c6f9a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "11463c1b99a6",
+          "_type": "span",
+          "marks": [],
+          "text": "EXPERT DIGITAL"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9b2bb3196acc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "11463c1b99a6",
+          "_type": "span",
+          "marks": [],
+          "text": "PRODUCTION"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    }
+  ],
+  "intersectionCallToAction": {
+    "label": "The Studio",
+    "url": "/studio"
+  },
+  "intersectionImage": {
+    "_type": "image",
+    "aspectRatio": 0.5625,
+    "vimeoURL": "https://vimeo.com/1145249700"
+  },
+  "intersectionText": "Our approach sits where creativity and technical imagination meet. We explore emerging technologies with a practical, artistic eye, shaping them into experiences that feel human and memorable.\n\nOur curiosity is what keeps our work moving forward. It pushes us to stay close to new ideas, new tools and new ways of seeing. It keeps our aesthetics evolving and our technical approach sharp. It’s the energy that ensures every project feels considered and ready for the world it’s going into.",
+  "intersectionTitle": "art, technology, experience.",
+  "sectionOneCallout": "Studio Dialect explores how technology can shape the way people move, feel and interact. \n\nFrom websites to installations, we design experiences that sit comfortably at the edge of what’s possible, guided by a belief in thoughtful design, meaningful experiences and a love of solving hard problems.",
+  "sectionOneCalloutLink": {
+    "label": "ALL PROJECTS",
+    "url": "/projects"
+  },
+  "sectionOneTitle": "INTERSECTING\nCULTURE",
+  "sectionOneTitleBottom": "&\nTECHNOLOGY",
+  "sectionTwoText": "Our work is grounded in research and experimentation. We help brands make sense of emerging technologies and turn them into clear, purposeful experiences that stay with people. \n\nEverything we create is built in close collaboration with our clients and agency partners, working together to bring ideas to life with clarity and intention.",
+  "seo": {
+    "articleType": null,
+    "canonicalOverride": null,
+    "keywords": [
+      "interactive production studio",
+      "WebGL agency",
+      "3D production",
+      "immersive retail",
+      "anamorphic billboard",
+      "emerging technology",
+      "experiential design",
+      "creative technology"
+    ],
+    "metaDescription": "Studio Dialect is an interactive production studio intersecting culture and technology. Immersive 3D, WebGL, retail, and emerging-tech work for global brands.",
+    "metaTitle": "Award-winning interactive production studio",
+    "noindex": null,
+    "ogImage": {
+      "alt": "3D render of Studio Dialect's futuristic robotic arm brand mascot",
+      "asset": {
+        "_id": "image-b8e40f674150cdb8b89a35bb3cc8150a8b60dead-1200x630-png",
+        "url": "https://cdn.sanity.io/images/z4rfkkmu/production/b8e40f674150cdb8b89a35bb3cc8150a8b60dead-1200x630.png"
+      }
+    }
+  },
+  "spiralImages": [
+    {
+      "src": "media/reference/spiral-01.webp",
+      "label": "Blossom & Bloom AR Game"
+    },
+    {
+      "src": "media/reference/spiral-02.webp",
+      "label": "Adidas Crazyfast"
+    },
+    {
+      "src": "media/reference/spiral-03.webp",
+      "label": "Nike AMD"
+    },
+    {
+      "src": "media/reference/spiral-04.webp",
+      "label": "Nespresso"
+    },
+    {
+      "src": "media/reference/spiral-05.webp",
+      "label": "Blossom & Bloom AR Game"
+    },
+    {
+      "src": "media/reference/spiral-06.webp",
+      "label": "Squatwolf"
+    },
+    {
+      "src": "media/reference/spiral-07.webp",
+      "label": "On Running"
+    },
+    {
+      "src": "media/reference/spiral-08.webp",
+      "label": "HOKA TRAINING CAMP"
+    },
+    {
+      "src": "media/reference/spiral-09.webp",
+      "label": "Adidas Crazyfast"
+    },
+    {
+      "src": "media/reference/spiral-10.webp",
+      "label": "Face Your Fears"
+    },
+    {
+      "src": "media/reference/spiral-11.webp",
+      "label": "Mont Blanc"
+    },
+    {
+      "src": "media/reference/spiral-12.webp",
+      "label": "Google Pixel Fold"
+    },
+    {
+      "src": "media/reference/spiral-13.webp",
+      "label": "Skimasters"
+    },
+    {
+      "src": "media/reference/spiral-14.webp",
+      "label": "Adidas Crazyfast"
+    },
+    {
+      "src": "media/reference/spiral-15.webp",
+      "label": "Blossom & Bloom AR Game"
+    },
+    {
+      "src": "media/reference/spiral-16.webp",
+      "label": "Face Your Fears"
+    },
+    {
+      "src": "media/reference/spiral-17.webp",
+      "label": "Mont Blanc"
+    },
+    {
+      "src": "media/reference/spiral-18.webp",
+      "label": "Google Pixel Fold"
+    },
+    {
+      "src": "media/reference/spiral-19.webp",
+      "label": "Nike AMD"
+    },
+    {
+      "src": "media/reference/spiral-20.webp",
+      "label": "Face Your Fears"
+    },
+    {
+      "src": "media/reference/spiral-21.webp",
+      "label": "Breitling"
+    },
+    {
+      "src": "media/reference/spiral-22.webp",
+      "label": "Coke Zero"
+    },
+    {
+      "src": "media/reference/spiral-23.webp",
+      "label": "Google Pixel Fold"
+    },
+    {
+      "src": "media/reference/spiral-24.webp",
+      "label": "HOKA TRAINING CAMP"
+    },
+    {
+      "src": "media/reference/spiral-25.webp",
+      "label": "Breitling"
+    },
+    {
+      "src": "media/reference/spiral-26.webp",
+      "label": "Coke Zero"
+    },
+    {
+      "src": "media/reference/spiral-27.webp",
+      "label": "Nespresso Vienna"
+    },
+    {
+      "src": "media/reference/spiral-28.webp",
+      "label": "Gate Zero"
+    },
+    {
+      "src": "media/reference/spiral-29.webp",
+      "label": "Breitling"
+    },
+    {
+      "src": "media/reference/spiral-30.webp",
+      "label": "The Northface Vectiv"
+    },
+    {
+      "src": "media/reference/spiral-31.webp",
+      "label": "Mclaren Korean"
+    },
+    {
+      "src": "media/reference/spiral-32.webp",
+      "label": "HOKA UTMB"
+    },
+    {
+      "src": "media/reference/spiral-33.webp",
+      "label": "Adidas Crazyfast"
+    },
+    {
+      "src": "media/reference/spiral-34.webp",
+      "label": "Nike AMD"
+    },
+    {
+      "src": "media/reference/spiral-35.webp",
+      "label": "Google Pixel Fold"
+    },
+    {
+      "src": "media/reference/spiral-36.webp",
+      "label": "On Running"
+    },
+    {
+      "src": "media/reference/spiral-37.webp",
+      "label": "Liquid R&D"
+    },
+    {
+      "src": "media/reference/spiral-38.webp",
+      "label": "HOKA UTMB"
+    },
+    {
+      "src": "media/reference/spiral-39.webp",
+      "label": "Mont Blanc"
+    },
+    {
+      "src": "media/reference/spiral-40.webp",
+      "label": "Nespresso Vienna"
+    },
+    {
+      "src": "media/reference/spiral-41.webp",
+      "label": "Mclaren Korean"
+    },
+    {
+      "src": "media/reference/spiral-42.webp",
+      "label": "Nike AMD"
+    },
+    {
+      "src": "media/reference/spiral-43.webp",
+      "label": "Mclaren Korea"
+    },
+    {
+      "src": "media/reference/spiral-44.webp",
+      "label": "Mclaren Korean"
+    },
+    {
+      "src": "media/reference/spiral-45.webp",
+      "label": "Breitling"
+    },
+    {
+      "src": "media/reference/spiral-46.webp",
+      "label": "The Northface Vectiv"
+    },
+    {
+      "src": "media/reference/spiral-47.webp",
+      "label": "Mclaren Korean"
+    },
+    {
+      "src": "media/reference/spiral-48.webp",
+      "label": "On Running"
+    },
+    {
+      "src": "media/reference/spiral-49.webp",
+      "label": "Nike AMD"
+    },
+    {
+      "src": "media/reference/spiral-50.webp",
+      "label": "Onava"
+    },
+    {
+      "src": "media/reference/spiral-51.webp",
+      "label": "Skimasters"
+    },
+    {
+      "src": "media/reference/spiral-52.webp",
+      "label": "Squatwolf"
+    },
+    {
+      "src": "media/reference/spiral-53.webp",
+      "label": "On Running"
+    },
+    {
+      "src": "media/reference/spiral-54.webp",
+      "label": "HOKA UTMB"
+    },
+    {
+      "src": "media/reference/spiral-55.webp",
+      "label": "Mont Blanc"
+    },
+    {
+      "src": "media/reference/spiral-56.webp",
+      "label": "The Northface Vectiv"
+    },
+    {
+      "src": "media/reference/spiral-57.webp",
+      "label": "On Running"
+    },
+    {
+      "src": "media/reference/spiral-58.webp",
+      "label": "Skimasters"
+    },
+    {
+      "src": "media/reference/spiral-59.webp",
+      "label": "Mont Blanc"
+    },
+    {
+      "src": "media/reference/spiral-60.webp",
+      "label": "Mclaren Korean"
+    }
+  ],
+  "worldLink": {
+    "label": "Let's Play",
+    "url": "/easter-egg"
+  }
+}

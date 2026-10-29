@@ -1,0 +1,72 @@
+[
+  {
+    "file": "media/tms-cover.png",
+    "source": "G:\\02 Personal Portfolio\\demos\\space-motion\\media\\tms-cover.png",
+    "sha256": "772de653ff130a2d2b93ede62e904a462bdb4e576333f44576d921aa48d09a05"
+  },
+  {
+    "file": "media/tms-monitor.png",
+    "source": "G:\\02 Personal Portfolio\\demos\\space-motion\\media\\tms-monitor.png",
+    "sha256": "bb6f717e99cdc660bec31aeea11974aedd5cc0813b720eb3b55200d9996be0a5"
+  },
+  {
+    "file": "media/yuhui-course.png",
+    "source": "G:\\02 Personal Portfolio\\demos\\space-motion\\media\\yuhui-course.png",
+    "sha256": "b8ebc8fb40fbbd5d13041a84d3b22127abef01a44d30749d492b66c89ccbbf64"
+  },
+  {
+    "file": "media/yuhui-cover.png",
+    "source": "G:\\02 Personal Portfolio\\demos\\space-motion\\media\\yuhui-cover.png",
+    "sha256": "1c0dc4999c672609c652190b40c208a40a309a86968a0ec2a708b2b45e697206"
+  },
+  {
+    "file": "media/yuhui-home-board.png",
+    "source": "G:\\02 Personal Portfolio\\demos\\space-motion\\media\\yuhui-home-board.png",
+    "sha256": "fbb57d468669d588a2d2ba1da8cd59ef0e09f4210c692b6db8cd3f202d394d67"
+  },
+  {
+    "file": "media/yuhui-home.png",
+    "source": "G:\\02 Personal Portfolio\\demos\\space-motion\\media\\yuhui-home.png",
+    "sha256": "575e73c769f26ff8471fbdbd6a74e292def7fda191a53409e34cd9f90daa3c9e"
+  },
+  {
+    "file": "media/plants-cover.png",
+    "source": "G:\\02 Personal Portfolio\\assets\\projects\\plants\\figma\\plants-cover.png",
+    "sha256": "fe968822750db889f6c4d23756dd8ce424d6c95ee51e829bc77041bdd93b423f"
+  },
+  {
+    "file": "media/cangjingyou-cover.png",
+    "source": "G:\\02 Personal Portfolio\\assets\\projects\\cangjingyou\\figma\\cangjingyou-cover.png",
+    "sha256": "852863820d97d0ccab712703b7c0b3a92a7e9f4f747efd7ce93f31eaca3cf5fb"
+  },
+  {
+    "file": "media/plants-desktop.png",
+    "source": "G:\\02 Personal Portfolio\\assets\\projects\\plants\\local\\plants-desktop-device-mockup-20f0252c.png",
+    "sha256": "cd710297da2cde4d50d99681f295b2f89793e90435503b6f54d85875e3a9dbaf"
+  },
+  {
+    "file": "media/plants-tablet.png",
+    "source": "G:\\02 Personal Portfolio\\assets\\projects\\plants\\local\\plants-tablet-device-mockup-011d4e0d.png",
+    "sha256": "211d4728d318b0f7093c40ee31dc77021b32037d2bd2b2845519862ccc4097f5"
+  },
+  {
+    "file": "media/plants-mobile.png",
+    "source": "G:\\02 Personal Portfolio\\assets\\projects\\plants\\local\\plants-mobile-device-mockup-971f822b.png",
+    "sha256": "4157b6ed5ba0a9def274ce7175f335334895d12e92e7389b6ad61a0569a00ae3"
+  },
+  {
+    "file": "media/portrait.glb",
+    "source": "G:\\02 Personal Portfolio\\demos\\portrait-motion\\media\\portrait-head-source.glb",
+    "sha256": "402b8a8ac9f03232e6d64b5962929703a069daf99d3c49ac8eb0e48bedc9c576"
+  },
+  {
+    "file": "media/portrait-LICENSE.txt",
+    "source": "G:\\02 Personal Portfolio\\demos\\portrait-motion\\media\\portrait-head-LICENSE.txt",
+    "sha256": "7cf4da43a6ae6d32f7f7d063fe129a19468af6f4fe7c53b937f83959709fcb50"
+  },
+  {
+    "file": "media/portrait-static.png",
+    "source": "Rendered locally from refined site/portrait-model.js on 2026-10-24; original parametric geometry",
+    "sha256": "86eac8c439760b1ab4499dd153712486bee6ed4991c0e48ac01cbf0ab0d56161"
+  }
+]

@@ -3,7 +3,7 @@
   "name": "personal-portifolio",
   "compatibility_date": "2026-10-23",
   "build": {
-    "command": "pnpm run build:cloudflare"
+    "command": "node scripts/build-portfolio.mjs"
   },
   "assets": {
     "directory": "./out",

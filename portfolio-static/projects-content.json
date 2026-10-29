@@ -1,0 +1,189 @@
+{
+  "filters": [
+    "All",
+    "Enterprise Products",
+    "Consumer Apps",
+    "Responsive websites"
+  ],
+  "categoryKeys": {
+    "All": "all",
+    "Enterprise Products": "enterprise",
+    "Consumer Apps": "consumer",
+    "Responsive websites": "web"
+  },
+  "source": "Rin supplied project materials",
+  "projects": [
+    {
+      "slug": "tms",
+      "name": "TMS",
+      "client": "Enterprise Products",
+      "description": "A transport management interface for logistics monitoring and operational workflows.",
+      "categories": [
+        "Enterprise Products"
+      ],
+      "images": [
+        {
+          "src": "media/projects/tms/tms-category-preview.png",
+          "alt": "TMS logistics platform overview",
+          "ratio": 1,
+          "fit": "cover",
+          "position": "50% 50%",
+          "sha256": "a4892d9d2e0d36d22f00ec5797b0f9c1f23db21fa51e310889f65441edb2e721"
+        },
+        {
+          "src": "media/projects/tms/tms-interface-montage.png",
+          "alt": "TMS interface montage",
+          "ratio": 1.42,
+          "fit": "cover",
+          "position": "50% 50%",
+          "sha256": "a24a7f72c8e04a48af03ac353e956b82925b684eead7f07a978d24a5280f0e32"
+        },
+        {
+          "src": "media/projects/tms/tms-carrier-masked.png",
+          "alt": "Carrier team reviewing logistics at a workstation",
+          "ratio": 0.92,
+          "fit": "cover",
+          "position": "65% 50%",
+          "sha256": "40df4900033cd91136be88ef25ff35785436e7f20bce9c991677b2b1c0a4b720"
+        },
+        {
+          "src": "media/projects/tms/tms-laptop-window-v2.svg",
+          "alt": "TMS laptop with green background and window light",
+          "ratio": 0.78,
+          "fit": "cover",
+          "position": "28% 50%",
+          "sha256": "e74485f4232c477630a1f3a959625330fd1632d4c3611e07043af016c25f0583"
+        }
+      ]
+    },
+    {
+      "slug": "yuhui",
+      "name": "Yuhui / 语绘",
+      "client": "Consumer Apps",
+      "description": "A learning app with courses, schedules and everyday campus information.",
+      "categories": [
+        "Consumer Apps"
+      ],
+      "images": [
+        {
+          "src": "media/projects/yuhui/yuhui-login-presentation.png",
+          "alt": "Yuhui splash and login phone mockups",
+          "ratio": 0.82,
+          "fit": "cover",
+          "position": "100% 50%",
+          "sha256": "39574a44cd921b7be85986de08201078e5b09ce71f6cf4c7bfa00f06a184cb9a"
+        },
+        {
+          "src": "media/projects/yuhui/yuhui-category-preview.png",
+          "alt": "Yuhui app interface collection",
+          "ratio": 1.1,
+          "fit": "cover",
+          "position": "50% 50%",
+          "sha256": "942dfc766b7d72b8b5f67f81e927de7f1c74e96deaba61bc118688d649d2470c"
+        },
+        {
+          "src": "media/projects/yuhui/yuhui-ai-presentation.png",
+          "alt": "Yuhui AI illustration creation and assistant screens",
+          "ratio": 1.04,
+          "fit": "cover",
+          "position": "86% 50%",
+          "sha256": "108ff0eae10755c98bba64c71cdcf123b0fd2405a62b9d6c95e9e219d7e1baf7"
+        },
+        {
+          "src": "media/yuhui-cover.png",
+          "alt": "Yuhui visual identity and app screens",
+          "ratio": 1.3,
+          "fit": "cover",
+          "position": "95% 50%",
+          "sha256": "1c0dc4999c672609c652190b40c208a40a309a86968a0ec2a708b2b45e697206"
+        }
+      ]
+    },
+    {
+      "slug": "cangjingyou",
+      "name": "Cangjingyou / 藏境游",
+      "client": "Consumer Apps",
+      "description": "A travel app with destination discovery and itinerary planning.",
+      "categories": [
+        "Consumer Apps"
+      ],
+      "images": [
+        {
+          "src": "media/cangjingyou-cover.png",
+          "alt": "Cangjingyou travel app overview",
+          "ratio": 1,
+          "fit": "cover",
+          "position": "95% 50%",
+          "sha256": "852863820d97d0ccab712703b7c0b3a92a7e9f4f747efd7ce93f31eaca3cf5fb"
+        },
+        {
+          "src": "media/projects/cangjingyou/cangjingyou-onboarding-presentation.png",
+          "alt": "Cangjingyou onboarding screens and mascot design",
+          "ratio": 1.777778,
+          "fit": "cover",
+          "position": "50% 50%",
+          "sha256": "36cb96b8da665867d97ecee67e5a174d9f18e71bcba850f4d39dda7c14d6d2fd"
+        },
+        {
+          "src": "media/projects/cangjingyou/cangjingyou-components-presentation.png",
+          "alt": "Cangjingyou travel interface components",
+          "ratio": 1.2,
+          "fit": "cover",
+          "position": "100% 50%",
+          "sha256": "359024c5a13e962f5f4c081c9ee1be7695c0574c06dd7cb24106f8c500eb8343"
+        },
+        {
+          "src": "media/projects/cangjingyou/cangjingyou-interface-montage.png",
+          "alt": "Cangjingyou diagonal interface collection",
+          "ratio": 1.45,
+          "fit": "cover",
+          "position": "50% 50%",
+          "sha256": "c2724f70d3a1c66c307e1fa2aee2b50db364f5d5dd7ebb09b96043d76dcceaf5"
+        }
+      ]
+    },
+    {
+      "slug": "plants",
+      "name": "PLANTS",
+      "client": "Responsive websites",
+      "description": "A plant shopping website across desktop, tablet and mobile.",
+      "categories": [
+        "Responsive websites"
+      ],
+      "images": [
+        {
+          "src": "media/projects/plants/plants-category-preview-v2.png",
+          "alt": "PLANTS multi-device composition",
+          "ratio": 1,
+          "fit": "cover",
+          "position": "50% 50%",
+          "sha256": "b72a0d45a8d997ac8fd9cb9528692b76af3498721e3e9c7340af7839c4a967fa"
+        },
+        {
+          "src": "media/projects/plants/plants-index-presentation.png",
+          "alt": "PLANTS homepage and product pages on tablets",
+          "ratio": 1.5,
+          "fit": "cover",
+          "position": "100% 50%",
+          "sha256": "6b3a5ff50abdaa5b426298b9932063d9c1ee9fe12e8f7de408a0e0326b9fc35e"
+        },
+        {
+          "src": "media/projects/plants/plants-login-presentation.png",
+          "alt": "PLANTS login page laptop presentation",
+          "ratio": 1.23,
+          "fit": "cover",
+          "position": "100% 50%",
+          "sha256": "ac91d56da79adbeda3f5cf7c60203bf34a51716bd9db83ae2d063c98adf9c004"
+        },
+        {
+          "src": "media/plants-mobile.png",
+          "alt": "PLANTS mobile website",
+          "ratio": 0.75,
+          "fit": "contain",
+          "position": "50% 50%",
+          "sha256": "4157b6ed5ba0a9def274ce7175f335334895d12e92e7389b6ad61a0569a00ae3"
+        }
+      ]
+    }
+  ]
+}

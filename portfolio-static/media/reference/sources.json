@@ -1,0 +1,572 @@
+{
+  "note": "Local reference recreation; original rights retained by source owners. User requested replacement-ready images/model. No videos downloaded.",
+  "assets": [
+    {
+      "path": "media/reference/spiral-01.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/4f807995c89f29556760dfa3d6e13e0dfdfd5431-600x800.png?w=600&fm=webp",
+      "label": "Blossom & Bloom AR Game",
+      "bytes": 8384,
+      "sha256": "289b4c4a8898f50251b969c2dc7c416c3a1a920642404602bb97137559735559"
+    },
+    {
+      "path": "media/reference/spiral-02.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/9db89dd7267eb081be98e032b6a0450fc282194e-600x800.png?w=600&fm=webp",
+      "label": "Adidas Crazyfast",
+      "bytes": 32852,
+      "sha256": "7f1ea6319bffabb49419fc77126665f054f0ac25d3823d32861eafaa5ad553f9"
+    },
+    {
+      "path": "media/reference/spiral-03.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/09d746dc848ed0f742e9e3f97ac9f9cbbec8dccf-600x800.png?w=600&fm=webp",
+      "label": "Nike AMD",
+      "bytes": 33750,
+      "sha256": "cb83d5ef59e24b2e5d2e7ca29d6bbb337fad26ea911322b29073cce11808686f"
+    },
+    {
+      "path": "media/reference/spiral-04.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/f4f492320dc49087797c390abffdf38d75bd585b-600x800.png?w=600&fm=webp",
+      "label": "Nespresso",
+      "bytes": 33050,
+      "sha256": "e26790b30c0713dbe9f5e87d513533003df5c7c6a987c4587747a2fe9decda47"
+    },
+    {
+      "path": "media/reference/spiral-05.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/c573016faa0767876092ec34c420de96df7bb0a5-600x800.png?w=600&fm=webp",
+      "label": "Blossom & Bloom AR Game",
+      "bytes": 22096,
+      "sha256": "7ade1232117ace4acb2a30b6507d415de8a51b88a5a2af0e820cfc7bf3430ad3"
+    },
+    {
+      "path": "media/reference/spiral-06.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/9de0b71c49d3b443640f09abab65a4d53c0a126d-600x800.png?w=600&fm=webp",
+      "label": "Squatwolf",
+      "bytes": 7672,
+      "sha256": "6ea3f06217c5cf9159acc5de55874a322f7c195b70fb3ac4d312b167cc9a4669"
+    },
+    {
+      "path": "media/reference/spiral-07.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/304917e1f9b50248319fc707b08192085c6ea870-600x800.png?w=600&fm=webp",
+      "label": "On Running",
+      "bytes": 85406,
+      "sha256": "8dbb273af917d7a37969cbe931d590564fef9e5cdcf5545bc4ea670db14cda5c"
+    },
+    {
+      "path": "media/reference/spiral-08.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/b8fd04c5cbf29e6f6888d3070ad7a438120d5c5d-600x800.png?w=600&fm=webp",
+      "label": "HOKA TRAINING CAMP",
+      "bytes": 27750,
+      "sha256": "1a6998c201eedef3b02d4aed05f697fb3bb572e62aaf28995a534a2a030a59b4"
+    },
+    {
+      "path": "media/reference/spiral-09.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/be06227df5584683a466ab79fd47c8f79b09f767-600x800.png?w=600&fm=webp",
+      "label": "Adidas Crazyfast",
+      "bytes": 30348,
+      "sha256": "5ec4526a85ac4cd8d4aa5948647a4dd9b855ae829813c411b50bc809fd352e0c"
+    },
+    {
+      "path": "media/reference/spiral-10.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/e329bb54474b4c03edda1642c55b352d9b609362-600x800.png?w=600&fm=webp",
+      "label": "Face Your Fears",
+      "bytes": 18292,
+      "sha256": "5fae37139bc05c1eb4d7b32ab2fb2500d45125b7a0220ab231e9859288b95c17"
+    },
+    {
+      "path": "media/reference/spiral-11.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/76bb0cc371de0781523f0fe6050b25d022589de1-600x800.png?w=600&fm=webp",
+      "label": "Mont Blanc",
+      "bytes": 17930,
+      "sha256": "8957ac144ff6706abeb97090115b33767c1225f0639d04c14e94bd039d7cdde3"
+    },
+    {
+      "path": "media/reference/spiral-12.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/29eb161177cea7a9720c2499766c189cc96d32d4-600x800.png?w=600&fm=webp",
+      "label": "Google Pixel Fold",
+      "bytes": 66454,
+      "sha256": "4a1413ebf256f3b51b385f87b860d041264af04009f16a78af6dcf3f281452b8"
+    },
+    {
+      "path": "media/reference/spiral-13.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/93df45e94807536d5d0e0265bd85a728c193f54c-600x800.png?w=600&fm=webp",
+      "label": "Skimasters",
+      "bytes": 17674,
+      "sha256": "ff514f48ebd228cf9896d9ee8278af2145bdf4ded85bc363da87bcaedbcb33a8"
+    },
+    {
+      "path": "media/reference/spiral-14.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/4ff39151de280576e03861199e28673883796872-600x800.png?w=600&fm=webp",
+      "label": "Adidas Crazyfast",
+      "bytes": 16010,
+      "sha256": "e0b9b53a137191b54095d06b8095142f399c5fae4892a5dfc862e998a43eba20"
+    },
+    {
+      "path": "media/reference/spiral-15.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/6f1058e6f8291bc75f83c0353577d0e25e7b3a8f-600x800.png?w=600&fm=webp",
+      "label": "Blossom & Bloom AR Game",
+      "bytes": 12158,
+      "sha256": "363c44e532e4a2b14a126fb12c31ff0fc10b23bba633f9bdeda1daca01216b0c"
+    },
+    {
+      "path": "media/reference/spiral-16.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/affedda72854b10d583f965de3519cac0a90d9ea-600x800.png?w=600&fm=webp",
+      "label": "Face Your Fears",
+      "bytes": 35084,
+      "sha256": "47f63c6c21f463358688c036a0703263bb723814e0dd7bd941c40e3489daf4cd"
+    },
+    {
+      "path": "media/reference/spiral-17.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/cff32326b9ac5e668ee546ba07e9111fd0142e4a-600x800.png?w=600&fm=webp",
+      "label": "Mont Blanc",
+      "bytes": 23356,
+      "sha256": "51c35dce9187d4bb639d1c6f91a15e88a33ff500855a60c58706c26f02e4b16e"
+    },
+    {
+      "path": "media/reference/spiral-18.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/3aff6915e3b45a5ae257c3695aa7d5b4c1d39077-600x800.png?w=600&fm=webp",
+      "label": "Google Pixel Fold",
+      "bytes": 74758,
+      "sha256": "ad41b88d1bca280ad19d8f4f818b44494fa1d97224b471b113b5deb426625352"
+    },
+    {
+      "path": "media/reference/spiral-19.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/2978909820fd1f8fcf0b56c7cb368ed903953cd5-600x800.png?w=600&fm=webp",
+      "label": "Nike AMD",
+      "bytes": 36874,
+      "sha256": "50fdfd70440e687dc35c07525606a708e2b97a832643dd07f2efcf54f0f1df60"
+    },
+    {
+      "path": "media/reference/spiral-20.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/a84316ef792c34e3f8138508334f721fc7baf713-600x800.png?w=600&fm=webp",
+      "label": "Face Your Fears",
+      "bytes": 17476,
+      "sha256": "888d8721bb66bdb06c87c621a2bdbb37e8ae5b109d5119a640ae57903cd526d7"
+    },
+    {
+      "path": "media/reference/spiral-21.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/4ffd25dec2620e4deab3b708f8735e91d0aeea92-600x800.png?w=600&fm=webp",
+      "label": "Breitling",
+      "bytes": 47348,
+      "sha256": "6f80b733853a52c1e4aec64d8d649b7e7bb26c10bbf684622f06e4004e3b3f1e"
+    },
+    {
+      "path": "media/reference/spiral-22.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/df545474241329f0bfb5a937ca8debb343be6c1b-600x800.png?w=600&fm=webp",
+      "label": "Coke Zero",
+      "bytes": 32176,
+      "sha256": "e1a7318c524513ae852bfadc09965ac65b107b9c3e5907c9d312141a9fcec75d"
+    },
+    {
+      "path": "media/reference/spiral-23.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/344ed43d854b5360e5eff1b46aa532919cd79564-600x800.png?w=600&fm=webp",
+      "label": "Google Pixel Fold",
+      "bytes": 28410,
+      "sha256": "01322bd61e7ea1a10d6cd8449c3818c0d90a78f2f58cc6fcf0361f61260628d8"
+    },
+    {
+      "path": "media/reference/spiral-24.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/a4915b6a0b70483708129eabb6dc44ec50250ee0-600x800.png?w=600&fm=webp",
+      "label": "HOKA TRAINING CAMP",
+      "bytes": 46978,
+      "sha256": "9a2220f2c33debc948329266dcbd3f65f9bd548f7eb2cc2a724b31fc84ec764c"
+    },
+    {
+      "path": "media/reference/spiral-25.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/879b4e21ce3388ecad5a83b0aa876bf9ed2b151e-600x800.png?w=600&fm=webp",
+      "label": "Breitling",
+      "bytes": 29458,
+      "sha256": "906a471641fc35f1baeccffc473ea39f3dd51a4202e0c05dfa40c472b4bfa183"
+    },
+    {
+      "path": "media/reference/spiral-26.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/653af15b8ed8760bd8a6b396a39e61dca41ca43e-600x800.png?w=600&fm=webp",
+      "label": "Coke Zero",
+      "bytes": 27434,
+      "sha256": "ce41b9bc356a2319e35063fb8670c379d512309a89a82ccfb6fcfd187baad357"
+    },
+    {
+      "path": "media/reference/spiral-27.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/e2daefd62bcd56e93fbd135a8d296b75f9231f02-600x800.png?w=600&fm=webp",
+      "label": "Nespresso Vienna",
+      "bytes": 73856,
+      "sha256": "9e47e9638ff0396209a9dbca1c785d7231059c14f53f998a74c80b1abf13287d"
+    },
+    {
+      "path": "media/reference/spiral-28.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/86368ce19908c1abe011e6f24f38ac56da4eeb34-600x800.png?w=600&fm=webp",
+      "label": "Gate Zero",
+      "bytes": 16192,
+      "sha256": "5c588003b42b246e163236deb43e7c0d447c5650693bfd533fb1115e9e99c3cd"
+    },
+    {
+      "path": "media/reference/spiral-29.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/1253672390c29826f51790b2265e2448d932e4c9-600x800.png?w=600&fm=webp",
+      "label": "Breitling",
+      "bytes": 56490,
+      "sha256": "068ae848a425e360f7ccd95e10c8f25e86bc64b758e10c7081d742232f9dd32d"
+    },
+    {
+      "path": "media/reference/spiral-30.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/19a055bb92069254bce0aaf5733da4a27533c285-600x800.png?w=600&fm=webp",
+      "label": "The Northface Vectiv",
+      "bytes": 82046,
+      "sha256": "0d185a8e0aca32e3fa36daaebbeff1b0e9b98489a8a9717ebb9f1f8d2d98e4cc"
+    },
+    {
+      "path": "media/reference/spiral-31.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/892989b20cde73e1172a328f1ee3fe15917802c9-600x800.png?w=600&fm=webp",
+      "label": "Mclaren Korean",
+      "bytes": 40916,
+      "sha256": "ce8ea1a69c3938e70e118dc0234631e87679e041915d6713fd84a3bb6c7ff70b"
+    },
+    {
+      "path": "media/reference/spiral-32.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/73ac2c9734834cadaa54687f71667681c5db79a7-600x800.png?w=600&fm=webp",
+      "label": "HOKA UTMB",
+      "bytes": 87020,
+      "sha256": "6fff34de58d4d0d3b8ad566a03506518fe0cbc6e1af7d8cd9ea0fb395ad06a67"
+    },
+    {
+      "path": "media/reference/spiral-33.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/4139dce154255d372c4eec1949d3b75e3da66274-600x800.png?w=600&fm=webp",
+      "label": "Adidas Crazyfast",
+      "bytes": 47750,
+      "sha256": "8d11ffd26128f26a9993e592482ca9cb457e8e3e05064febef64e98ea304b101"
+    },
+    {
+      "path": "media/reference/spiral-34.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/095fa0ff7c73d89252cd55e131eb30c13797f109-600x800.png?w=600&fm=webp",
+      "label": "Nike AMD",
+      "bytes": 30932,
+      "sha256": "841d2e89d7b057ca2dc58f54380d5b9e965e88084f3472c200a09e6886002aa6"
+    },
+    {
+      "path": "media/reference/spiral-35.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/54364056e6c98fae4f668aa85824dba4b8f2c9ea-600x800.png?w=600&fm=webp",
+      "label": "Google Pixel Fold",
+      "bytes": 6834,
+      "sha256": "fa58050529878ea6652967030acca222ad64585fc322cdfff25041ecadd907da"
+    },
+    {
+      "path": "media/reference/spiral-36.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/6412fa293203c485987965deb248b8f9594334ce-600x800.png?w=600&fm=webp",
+      "label": "On Running",
+      "bytes": 28840,
+      "sha256": "db214be22925253b1d2c3273b5b7721ecaaf20d6ecf4e209265b9e365827f451"
+    },
+    {
+      "path": "media/reference/spiral-37.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/25ba62f359e9e80277f3c022550d42c361f495b8-600x800.png?w=600&fm=webp",
+      "label": "Liquid R&D",
+      "bytes": 24270,
+      "sha256": "a2207cb9c1b151da27dc26fc64a00b974664fb338175e7064f77f2f77d69a577"
+    },
+    {
+      "path": "media/reference/spiral-38.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/93a6e5baca0166430b6678c64e94d7edbadcb3e7-600x800.png?w=600&fm=webp",
+      "label": "HOKA UTMB",
+      "bytes": 61146,
+      "sha256": "5e9744133abf585f8ee119255f58659a8c2c8fd03c166bd2cd0891467687ae84"
+    },
+    {
+      "path": "media/reference/spiral-39.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/69c206ae7df00adb4310cbfb501c614e210e071d-600x800.png?w=600&fm=webp",
+      "label": "Mont Blanc",
+      "bytes": 14964,
+      "sha256": "c036389aa12018f1e57825e0b1854879679a9e3a4a85be7aee9511e87357ff35"
+    },
+    {
+      "path": "media/reference/spiral-40.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/d4bb4ef4ebbda6e68a7c514c2b35b187fcda01a2-600x800.png?w=600&fm=webp",
+      "label": "Nespresso Vienna",
+      "bytes": 41632,
+      "sha256": "8606659aafc8474a3c6a0f0a59030dcad4361f45f3301ad0e759c00fdaaa036d"
+    },
+    {
+      "path": "media/reference/spiral-41.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/9ca12081de73c006ee04122a3cddc64a7b336d08-600x800.png?w=600&fm=webp",
+      "label": "Mclaren Korean",
+      "bytes": 11032,
+      "sha256": "690cfb0995b5ad479124ba34f1c18d5257e2065e1c35172005443fbd56e87e64"
+    },
+    {
+      "path": "media/reference/spiral-42.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/6db48ac657d8dbb78f9e85ec0a8c75058003c5d6-600x800.png?w=600&fm=webp",
+      "label": "Nike AMD",
+      "bytes": 38612,
+      "sha256": "169ae598173392c416aa44244d40410f6d07110a98572078a4a851278f1a2315"
+    },
+    {
+      "path": "media/reference/spiral-43.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/f1f1b191661ac69eaa04c38cd1e1fa4614942781-600x800.png?w=600&fm=webp",
+      "label": "Mclaren Korea",
+      "bytes": 30440,
+      "sha256": "35f2810a0974ceabe7da8408ef990c83889b92687aec884d85e7a157e069f61f"
+    },
+    {
+      "path": "media/reference/spiral-44.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/7c377c3ef4332aa651717ffaf59b2505a3ebdf41-600x800.png?w=600&fm=webp",
+      "label": "Mclaren Korean",
+      "bytes": 16236,
+      "sha256": "a4975808f66540f75c44343584b43632cfd88691c6d21e4eb325318ca8ee7dbe"
+    },
+    {
+      "path": "media/reference/spiral-45.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/4b53e99ff6cd582c1ade5c69201bcfe1ca7eaac0-600x800.png?w=600&fm=webp",
+      "label": "Breitling",
+      "bytes": 20166,
+      "sha256": "684a58898d6cd39519bcc3cde0493f4dc4f4346b0505a91ce5f826f02b2c2c1a"
+    },
+    {
+      "path": "media/reference/spiral-46.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/e2734d8807710d41d5a35567f723b4ffb42f9b86-600x800.png?w=600&fm=webp",
+      "label": "The Northface Vectiv",
+      "bytes": 43102,
+      "sha256": "fe82c4518fe870bc82827a57dfb14cdb96cbd8a360a53fa8e9392a25dc3d10df"
+    },
+    {
+      "path": "media/reference/spiral-47.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/dcc7a54a261453e0d9e9c1bedc9f370bccbac1bf-600x800.png?w=600&fm=webp",
+      "label": "Mclaren Korean",
+      "bytes": 16842,
+      "sha256": "6e8646378b5cf3283264eefe337457da402e3a24fc49c01bcfcc92f69e69bfaf"
+    },
+    {
+      "path": "media/reference/spiral-48.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/1f345fd25aa3a64e45124544561695866f90c528-600x800.png?w=600&fm=webp",
+      "label": "On Running",
+      "bytes": 20924,
+      "sha256": "bdab43526f1d49cb660ac883b7b2045f2f9c383aea0b8a3b1aa43d757b62ce17"
+    },
+    {
+      "path": "media/reference/spiral-49.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/ee348b50b16cfa859e3cb89869c36e06614ff6dd-600x800.png?w=600&fm=webp",
+      "label": "Nike AMD",
+      "bytes": 27056,
+      "sha256": "8ad10fe0cfefa0cf22d10d27486afa1582cb68eff68fd98866aa8880502f7a7b"
+    },
+    {
+      "path": "media/reference/spiral-50.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/3ee5da074d37b98e717ad11bd797a522d0e169b2-600x800.png?w=600&fm=webp",
+      "label": "Onava",
+      "bytes": 16352,
+      "sha256": "cc839a94a61bc86ebb6cb795b2c1e5099e8b285814f8f9cb0e34835c858ea6df"
+    },
+    {
+      "path": "media/reference/spiral-51.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/f15747bcc71136796446f60c8d55b2e06a1e37d2-600x800.png?w=600&fm=webp",
+      "label": "Skimasters",
+      "bytes": 20180,
+      "sha256": "3cc690ef61b92d711cccaafce986ea6a6923e87d7908a486d09f2bf1b807d49f"
+    },
+    {
+      "path": "media/reference/spiral-52.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/4119571939edcfc9538b4402795a37017280b436-600x800.png?w=600&fm=webp",
+      "label": "Squatwolf",
+      "bytes": 7308,
+      "sha256": "3ed0beaa3f957151d9762e795a36d4c35e4b70a36b397bb92d6de37d88c97a1e"
+    },
+    {
+      "path": "media/reference/spiral-53.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/5356a8948ab7797200c8926962af7c97ebee6bc2-600x800.png?w=600&fm=webp",
+      "label": "On Running",
+      "bytes": 52376,
+      "sha256": "b3968d169f5dc0a064144bb14ac8807feb692b655e28232548b030e8f7ecb68a"
+    },
+    {
+      "path": "media/reference/spiral-54.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/ea9085e4d46249f75a8a434b67bd511f18c281df-600x800.png?w=600&fm=webp",
+      "label": "HOKA UTMB",
+      "bytes": 42614,
+      "sha256": "baf41352356fc0f354ad1e8cb3bedf3c6b9af53c1fa4075a91c6446624f6d981"
+    },
+    {
+      "path": "media/reference/spiral-55.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/e91bedd9e98f34d08536c99f5be973b0f8b9c754-600x800.png?w=600&fm=webp",
+      "label": "Mont Blanc",
+      "bytes": 10952,
+      "sha256": "0b9938960aa6f4cbcadf6ddcd01654fee008d6e32f8f133d4c935c30392c7413"
+    },
+    {
+      "path": "media/reference/spiral-56.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/90ae1bdae6a824ca3bcf7e84a9c5503463b88da8-600x800.png?w=600&fm=webp",
+      "label": "The Northface Vectiv",
+      "bytes": 116146,
+      "sha256": "82214c46fd6a2cd65505dfcbde1af154305071d48bab390390cc0361bba3c632"
+    },
+    {
+      "path": "media/reference/spiral-57.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/cd04d9d617ef591c6980feb26da509b7e171bd96-600x800.png?w=600&fm=webp",
+      "label": "On Running",
+      "bytes": 47464,
+      "sha256": "2772223cd2dc0f46739ee8b2319ff9e40ff79bd0166d739613ccd5231826b269"
+    },
+    {
+      "path": "media/reference/spiral-58.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/1479dbc40d45acaf332be1ead74a6bc8e3dd488b-600x800.png?w=600&fm=webp",
+      "label": "Skimasters",
+      "bytes": 23944,
+      "sha256": "58ef9f364bc43c69636a5b8454c1bc85b444aadee8af4845d14f30ca0b1ef7b5"
+    },
+    {
+      "path": "media/reference/spiral-59.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/9e726b0af4be0e615878a2c551eb268697ef502c-600x800.png?w=600&fm=webp",
+      "label": "Mont Blanc",
+      "bytes": 34038,
+      "sha256": "adecb864471af1b60f201d24995742864a34ea80f1aa4b861360d76c40b252b4"
+    },
+    {
+      "path": "media/reference/spiral-60.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/d36920cf0f912c9bfaedb4e2e2c4818acf70ef31-600x800.png?w=600&fm=webp",
+      "label": "Mclaren Korean",
+      "bytes": 5286,
+      "sha256": "8922f55f69113e04221b14fe9149d931d0a00699ed410a7a72535b7f72e42ab6"
+    },
+    {
+      "path": "media/reference/capabilities.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/195250563f03d6423593b63f7e35ba5d30964671-568x568.jpg?w=900&fm=webp",
+      "label": "Capabilities static image",
+      "bytes": 16688,
+      "sha256": "145fb70319c8a7abe35abdf186972a442ca7f249f3e8399feaab83609eec94bd"
+    },
+    {
+      "path": "media/reference/simon-poster.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/8d67daef3ec6d9dd8181087a9db7a5ef1f8fcb4e-1200x1600.png?w=1200&fm=webp",
+      "label": "Simon Hathaway static fallback",
+      "bytes": 11236,
+      "sha256": "9ac0cc076463dd40ed29c8c2b69e718f1d29d89f7096a7d697f50d89369a6e72"
+    },
+    {
+      "path": "media/reference/logo-01.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/e71b80433ad154de88c3ec6641b3130f0056a0bc-128x48.png?w=512&fm=webp",
+      "label": "Logo",
+      "bytes": 12674,
+      "sha256": "a7a54fffad65069cecb1b720e9edab3e598046f526b0846070490225575f17ed"
+    },
+    {
+      "path": "media/reference/logo-02.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/2ff8c33c3ada739df61493a26268c37899816cfa-59x48.png?w=512&fm=webp",
+      "label": "Logo",
+      "bytes": 26724,
+      "sha256": "b9456375e701f69ffa1b9e8d5bdd8129f3e640417442dfa8a92fe2bd87099c70"
+    },
+    {
+      "path": "media/reference/logo-03.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/977598cc13fe510087ae1e1b575bed7b6f216e60-35x48.png?w=512&fm=webp",
+      "label": "Logo",
+      "bytes": 21100,
+      "sha256": "ecdfc9450c8c644934332df0b90b341b42810442334a85d036650ddc5def4182"
+    },
+    {
+      "path": "media/reference/logo-04.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/3ec929761952b11bff2b1a652e956dde93e33c76-140x48.png?w=512&fm=webp",
+      "label": "Logo",
+      "bytes": 7336,
+      "sha256": "d26ae8c7d944b15c613d991fb6c503627b10db14e256e2422bba433545bc0262"
+    },
+    {
+      "path": "media/reference/logo-05.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/d061ace106ee1add95062ca0511b624526f979d3-72x48.png?w=512&fm=webp",
+      "label": "Logo",
+      "bytes": 11440,
+      "sha256": "21219e76430da90ac18f8ca5d1274126ee06f696ce829d542303d577251cd5eb"
+    },
+    {
+      "path": "media/reference/logo-06.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/2b77764ebf82e56ee0dad5709160867afa69e091-63x44.png?w=512&fm=webp",
+      "label": "Logo",
+      "bytes": 23038,
+      "sha256": "107ed1de0049e17ee7c249802c7b1e8ce7e7956d21ccaecd81b77a81e9ecafb9"
+    },
+    {
+      "path": "media/reference/logo-07.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/c72d40efd611b3b6c2be7adcd4c03c6c3eefd966-97x48.png?w=512&fm=webp",
+      "label": "Logo",
+      "bytes": 15494,
+      "sha256": "23c869c35b36e96b4198dbe046c8f250f626857093dfeb903ecdb04164b60f10"
+    },
+    {
+      "path": "media/reference/logo-08.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/68198132a6a6d68e8d9177cdfcf8e9474994e1e4-79x48.png?w=512&fm=webp",
+      "label": "Logo",
+      "bytes": 15216,
+      "sha256": "624355e37bff35bba2418de3d765e2778a9aaaa79d303c8dd72c8e660b5ea3e1"
+    },
+    {
+      "path": "media/reference/logo-09.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/d8152dcd173e721180bcee6d9c7a8d7103eba2e1-71x48.png?w=512&fm=webp",
+      "label": "Logo",
+      "bytes": 19654,
+      "sha256": "d5621cb5c471ab0c43484b52809a32f0068ca2c4ae59f056b2a170cab05b8555"
+    },
+    {
+      "path": "media/reference/logo-10.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/3d4e5e04325a847b831726855d1e3ad4e02b91e1-103x48.png?w=512&fm=webp",
+      "label": "Logo",
+      "bytes": 9260,
+      "sha256": "31e29fbdb273b2efeaf93844150c5902797dfdae9fd4857060c29f244a44c0b5"
+    },
+    {
+      "path": "media/reference/logo-11.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/c6ce8233b01bb65d46ddbfb7f2ef6e8ffc2b9349-94x48.png?w=512&fm=webp",
+      "label": "Logo",
+      "bytes": 25340,
+      "sha256": "9deccbbc82f5ae44390b6f4091862db405a19c5a6efcce5ed933088551db2ce9"
+    },
+    {
+      "path": "media/reference/logo-12.webp",
+      "source": "https://cdn.sanity.io/images/z4rfkkmu/production/fb23ea2699a8310baa63b2fa68d05668a24df3ca-71x48.png?w=512&fm=webp",
+      "label": "Logo",
+      "bytes": 22256,
+      "sha256": "79176b85dcd0917a7565d5442f4f10a5687f70c111d85019e792dac0782e0c62"
+    },
+    {
+      "path": "vendor/loaders/DRACOLoader.js",
+      "source": "https://unpkg.com/three@0.184.0/examples/jsm/loaders/DRACOLoader.js",
+      "label": "Three.js MIT",
+      "bytes": 17774,
+      "sha256": "18ed04342c7bc7d282157b566f22992329623ab3230030c913d0353d0880b216"
+    },
+    {
+      "path": "vendor/draco/draco_wasm_wrapper.js",
+      "source": "https://unpkg.com/three@0.184.0/examples/jsm/libs/draco/gltf/draco_wasm_wrapper.js",
+      "label": "Draco decoder",
+      "bytes": 58456,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+    },
+    {
+      "path": "vendor/draco/draco_decoder.wasm",
+      "source": "https://unpkg.com/three@0.184.0/examples/jsm/libs/draco/gltf/draco_decoder.wasm",
+      "label": "Draco decoder",
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    {
+      "path": "media/reference/simon-hathaway.glb",
+      "source": "https://cdn.sanity.io/files/z4rfkkmu/production/7222d89c5471dbf97291bd2565e2b975def0226f.glb",
+      "label": "Simon Hathaway original model",
+      "bytes": 175696,
+      "sha256": "06230b4be518b1d901fd081db1b08d79449d55fba57f97c87f4a6c5ee17df45d"
+    },
+    {
+      "path": "media/reference/simon-render-fallback.png",
+      "source": "Derived locally from media/reference/simon-hathaway.glb using portrait.js",
+      "label": "Transparent fallback render",
+      "bytes": 486420,
+      "sha256": "5834b730e667aa755bbd41e30d708a08a6e815d20bec9c88c4484adf258cc2d9"
+    },
+    {
+      "path": "media/reference/loader.gif",
+      "source": "https://studiodialect.com/assets/loader-BYw2aNWv.gif",
+      "label": "Opening graphic",
+      "bytes": 20627,
+      "sha256": "74e1d706935b56840f7e9bb02b9be839b1851cdd198192b8387ff7411b9f3192"
+    },
+    {
+      "path": "vendor/geist-mono.ttf",
+      "source": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeGUL55T.ttf",
+      "label": "Geist Mono",
+      "bytes": 71136,
+      "sha256": "42c209275022689ae438b9a918499aaabe6f1a09dcdb0ef01f5df1742f00320e"
+    }
+  ]
+}

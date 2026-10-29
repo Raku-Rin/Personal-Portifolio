@@ -1,0 +1,66 @@
+/* Reference detail structure with local media and accessible static fallbacks. */
+.project-detail-page,.project-detail-page .project-page {background:#d2d2d2;color:#242424}
+.project-detail-page .project-title,.project-detail-page .pixelated-title__text,.project-detail-page .pixelated-image-reveal__content {opacity:1}
+.project-detail-page .project-title.is-pixelating .pixelated-title__text {opacity:0}
+.project-detail-page .one-image-row {display:block}
+.project-detail-page .one-image-row > .reveal-image {width:100%;min-width:0}
+.project-detail-page .content-row img {width:100%;height:auto;display:block}
+.project-detail-page .two-image-row {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25vw;white-space:normal;align-items:start}
+.project-detail-page .two-image-row > .reveal-image {width:100%;margin:0}
+.project-detail-page .detail-still img {object-fit:cover}
+.project-detail-page .reveal-image {overflow:hidden;min-width:0}
+.project-detail-page .text-left-row,.project-detail-page .text-right-row {display:block}
+.project-detail-page .content-row p {font-size:inherit;line-height:1.2;margin-bottom:1em}
+.project-detail-page .project-info-section {max-width:none;justify-content:flex-start;gap:2vw}
+.project-detail-page .project-info-title {width:12vw;min-width:12vw}
+.project-detail-page .project-info-content {width:auto;white-space:normal}
+
+/* Fill the allocated column instead of shrinking to thumbnail intrinsic width. */
+.project-detail-page .content-row .pixelated-image-reveal__content {display:block;width:100%;max-width:none}
+.project-detail-page .one-image-row .detail-still img {aspect-ratio:1280/461;object-fit:cover}
+.project-detail-page .two-image-row .detail-still img {aspect-ratio:960/597;object-fit:cover}
+.project-detail-page .related-projects {padding:0 2.5vw 4vw;margin-top:5vw;border-top:0}
+.project-detail-page .related-projects__heading {font-size:clamp(11px,.625vw,14px);letter-spacing:.05em;line-height:1.2;margin:0 -2.5vw 1vw;padding:0 2.5vw .25vw;border-bottom:1px solid #999}
+.project-detail-page .related-projects__grid {gap:2vw}
+.project-detail-page .related-projects__image {aspect-ratio:16/10;width:100%;transition:opacity .2s ease}
+.project-detail-page .related-projects__meta {margin-top:.8vw;gap:.4vw}
+.project-detail-page .related-projects__client {font-size:clamp(10px,.6vw,13px)}
+.project-detail-page .related-projects__title {font-size:clamp(14px,.83vw,18px);font-weight:500;text-transform:none;letter-spacing:-.025em}
+.project-detail-page .related-projects__link:focus-visible {outline:2px solid #242424;outline-offset:5px}
+.project-detail-page .related-projects__link:focus-visible img {opacity:.85}
+.project-detail-page .project-back-link-section {margin-top:0}
+@media(max-width:768px){
+ .project-detail-page .two-image-row {gap:4.0609vw}
+ .project-detail-page .project-info-title {width:40%;min-width:40%}
+ .project-detail-page .project-info-content {min-width:0;width:60%}
+ .project-detail-page .related-projects {padding:0 4vw 10vw;margin-top:12vw}
+ .project-detail-page .related-projects__heading {margin:0 -4vw 4vw;padding:0 4vw 2vw}
+ .project-detail-page .related-projects__grid {grid-template-columns:1fr;gap:7vw}
+ .project-detail-page .related-projects__meta {margin-top:3vw;gap:1.5vw}
+}
+/* Rin TMS media: reference landscape frames; compare interfaces without cropping UI. */
+.project-detail-page .tms-detail-media.one-image-row img {aspect-ratio:16/9;object-fit:cover}
+.project-detail-page #tms-monitor img {object-position:50% 25%}
+.project-detail-page #tms-research img {object-position:50% 50%}
+.project-detail-page #tms-contract-comparison img {aspect-ratio:16/10;object-fit:contain;background:#fff}
+.project-detail-page .tms-comparison-media img {aspect-ratio:16/10;object-fit:contain;background:#fff}
+
+/* Keep the source arrow inside its link's containing block. */
+.project-detail-page .project-back-link .arrow-link {position:relative}
+.project-detail-page .project-back-link .arrow-link:focus-visible .arrow-link__label-text {transform:translateY(-2.5vw)}
+/* Restore the source's line-based reveal, rather than fading entire paragraphs. */
+.project-detail-page:not(.loaded) .project-title .pixelated-title__text,
+.project-detail-page.detail-motion-ready .pixelated-title:not([data-revealed]) .pixelated-title__text {opacity:0!important}
+.project-detail-page.detail-motion-ready .detail-text-reveal:not(.loaded) {visibility:hidden}
+.project-detail-page .detail-text-reveal .line {display:block;transform-origin:50% 50%}
+.project-detail-page .detail-meta-reveal {opacity:0}
+.project-detail-page .detail-meta-reveal.loaded {opacity:1;animation:revealFromBottomPlain .5s ease-in both,scalePulse .75s cubic-bezier(.175,.885,.42,1.275) both;animation-delay:var(--detail-delay,.1s)}
+.project-detail-page.reduced-motion .text-reveal,
+.project-detail-page.reduced-motion .pixelated-title__text {visibility:visible;opacity:1!important}
+.project-detail-page.reduced-motion .detail-text-reveal .line {animation:none!important;transition:none!important;transform:none;clip-path:none;opacity:1}
+@media(max-width:768px){.project-detail-page .project-back-link .arrow-link:focus-visible .arrow-link__label-text {transform:translateY(-6.09137vw)}}
+
+/* Imported case studies retain TMS spacing, reveal hooks and landscape frames. */
+.project-detail-page .legacy-detail-media.one-image-row img {aspect-ratio:16/9;object-fit:contain;background:#f7f7f7}
+.project-detail-page .legacy-detail-media.two-image-row img {aspect-ratio:16/10;object-fit:contain;background:#f7f7f7}
+.project-detail-page .legacy-detail-media.legacy-cover img {object-fit:cover;object-position:50% 48%}

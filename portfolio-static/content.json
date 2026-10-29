@@ -1,0 +1,132 @@
+{
+  "categories": [
+    {
+      "id": "enterprise",
+      "title": "Enterprise<br>Products.",
+      "text": "Interfaces for complex workflows, with clear information hierarchy, task coordination and operational states.",
+      "project": "TMS",
+      "key": "tms",
+      "images": [
+        "tms-monitor.png"
+      ]
+    },
+    {
+      "id": "consumer",
+      "title": "Consumer<br>Apps.",
+      "text": "Interfaces for everyday use, with clear journeys, approachable interactions and a consistent visual language.",
+      "project": "Yuhui / 语绘",
+      "key": "yuhui",
+      "images": [
+        "yuhui-home.png",
+        "yuhui-course.png"
+      ]
+    },
+    {
+      "id": "web",
+      "title": "Web<br>Experiences.",
+      "text": "Responsive websites that carry a clear visual identity across desktop, tablet and mobile.",
+      "project": "PLANTS",
+      "key": "plants",
+      "images": [
+        "plants-desktop.png",
+        "plants-tablet.png",
+        "plants-mobile.png"
+      ]
+    }
+  ],
+  "hero": [
+    "tms-monitor.png",
+    "yuhui-home.png",
+    "yuhui-cover.png",
+    "yuhui-home-board.png",
+    "tms-cover.png",
+    "yuhui-course.png",
+    "yuhui-cover.png",
+    "tms-monitor.png",
+    "tms-monitor.png",
+    "yuhui-home-board.png"
+  ],
+  "imageSizes": {
+    "cangjingyou-cover.png": [
+      1920,
+      1080
+    ],
+    "plants-cover.png": [
+      1920,
+      1080
+    ],
+    "plants-desktop.png": [
+      1953,
+      1183
+    ],
+    "plants-mobile.png": [
+      541,
+      1081
+    ],
+    "plants-tablet.png": [
+      786,
+      1183
+    ],
+    "portrait-static.png": [
+      1000,
+      1000
+    ],
+    "tms-cover.png": [
+      1920,
+      1080
+    ],
+    "tms-monitor.png": [
+      1440,
+      948
+    ],
+    "yuhui-course.png": [
+      970,
+      1967
+    ],
+    "yuhui-cover.png": [
+      1920,
+      1080
+    ],
+    "yuhui-home-board.png": [
+      1920,
+      1080
+    ],
+    "yuhui-home.png": [
+      970,
+      1967
+    ]
+  },
+  "portrait": {
+    "model": "media/reference/simon-hathaway.glb",
+    "poster": "media/reference/simon-poster.webp",
+    "implementation": "portrait.js",
+    "source": "https://studiodialect.com/",
+    "note": "Studio Dialect Simon Hathaway reference model, locally copied for requested recreation. Original ownership retained; replace before personal publication."
+  },
+  "projects": [
+    {
+      "key": "tms",
+      "name": "TMS",
+      "category": "Enterprise Products",
+      "image": "tms-cover.png"
+    },
+    {
+      "key": "yuhui",
+      "name": "Yuhui / 语绘",
+      "category": "Consumer Apps",
+      "image": "yuhui-cover.png"
+    },
+    {
+      "key": "plants",
+      "name": "PLANTS",
+      "category": "Web Experiences",
+      "image": "plants-cover.png"
+    },
+    {
+      "key": "cangjingyou",
+      "name": "Cangjingyou / 藏境游",
+      "category": "Consumer Apps",
+      "image": "cangjingyou-cover.png"
+    }
+  ]
+}

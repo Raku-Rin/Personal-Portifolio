@@ -1,0 +1,83 @@
+{
+  "source": "https://studiodialect.com/projects/on-running-cutting-edge-retail-display/",
+  "use": "Local layout reference placeholders; replace before publication; no video downloads.",
+  "images": [
+    {
+      "file": "on-running-01.webp",
+      "url": "https://cdn.sanity.io/images/z4rfkkmu/production/3ad300e2bc14329c542cb386c2c3199681e4c4ae-3648x2052.png?w=1824&fm=webp",
+      "alt": "Top-down view of ON products on the interactive retail display"
+    },
+    {
+      "file": "on-running-02.webp",
+      "url": "https://cdn.sanity.io/images/z4rfkkmu/production/7fe74fcfce2e6949e2e8939fa48593154cd5cc55-1800x3200.png?w=912&fm=webp",
+      "alt": "Wide shot of the ON Movement Lab Zurich store experience with the interactive display centre stage"
+    },
+    {
+      "file": "on-running-03.webp",
+      "url": "https://cdn.sanity.io/images/z4rfkkmu/production/e206fd0ce91d89291ba47339c9e55b2a4f03cea6-1800x3200.png?w=912&fm=webp",
+      "alt": "Top-down view of the interactive CloudTec display table"
+    },
+    {
+      "file": "on-running-04.webp",
+      "url": "https://cdn.sanity.io/images/z4rfkkmu/production/2b958a8ccf9fc4e16f1c98bc3ca163e3b42a8e7d-1800x1120.png?w=912&fm=webp",
+      "alt": "Behind-the-scenes factory shot of the interactive table being programmed by the project team"
+    },
+    {
+      "file": "on-running-05.webp",
+      "url": "https://cdn.sanity.io/images/z4rfkkmu/production/74c4fd99bf348e00b1bbbcd7078c37b39fbfabea-3648x2052.png?w=1824&fm=webp",
+      "alt": "Behind-the-scenes factory shot of the interactive table assembled on wooden pallets"
+    },
+    {
+      "file": "on-running-06.webp",
+      "url": "https://cdn.sanity.io/images/z4rfkkmu/production/665cfc8e33b59bf61fc71f1fc4db458db3ff346b-1800x1120.png?w=912&fm=webp",
+      "alt": "Behind-the-scenes test of the typographic display inside the factory"
+    },
+    {
+      "file": "on-running-07.webp",
+      "url": "https://cdn.sanity.io/images/z4rfkkmu/production/180f252e29270226cb00f47477a7359b22634574-1800x1120.png?w=912&fm=webp",
+      "alt": "Behind-the-scenes test of the ceiling display inside the factory"
+    },
+    {
+      "file": "on-running-08.webp",
+      "url": "https://cdn.sanity.io/images/z4rfkkmu/production/fed949b9f978e3015b2e71fc99d763eb83587495-1800x3200.png?w=912&fm=webp",
+      "alt": "ON products displayed on the interactive table in store"
+    },
+    {
+      "file": "on-running-09.webp",
+      "url": "https://cdn.sanity.io/images/z4rfkkmu/production/d2c17e94df267673e2d70284619ecb9779f0fbfd-1800x3200.png?w=912&fm=webp",
+      "alt": "Close-up of ON products on the interactive CloudTec display table"
+    },
+    {
+      "file": "on-running-10.webp",
+      "url": "https://cdn.sanity.io/images/z4rfkkmu/production/41a6e8258749c9615d7885ac7bbfe43cacc59978-3648x2052.png?w=1824&fm=webp",
+      "alt": "Nighttime exterior shot of the ON Movement Lab Zurich store"
+    }
+  ],
+  "video_stills": [
+    {
+      "file": "video-still-01.jpg",
+      "source": "https://vimeo.com/1147659521",
+      "method": "oEmbed thumbnail only, no video downloaded"
+    },
+    {
+      "file": "video-still-02.jpg",
+      "source": "https://vimeo.com/1147659579",
+      "method": "oEmbed thumbnail only, no video downloaded"
+    },
+    {
+      "file": "video-still-03.jpg",
+      "source": "https://vimeo.com/1147659592",
+      "method": "oEmbed thumbnail only, no video downloaded"
+    },
+    {
+      "file": "video-still-04.jpg",
+      "source": "https://vimeo.com/1147659491",
+      "method": "oEmbed thumbnail only, no video downloaded"
+    },
+    {
+      "file": "video-still-05.jpg",
+      "source": "https://vimeo.com/1147659556",
+      "method": "oEmbed thumbnail only, no video downloaded"
+    }
+  ]
+}

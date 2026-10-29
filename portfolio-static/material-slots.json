@@ -1,0 +1,76 @@
+{
+  "bodyStill": "media/portraits/2026-10-26/rin-portrait-user-final-v2.jpg",
+  "studioStill": "media/reference/spiral-39.webp",
+  "capabilityDefault": "media/projects/tms/tms-category-preview.png",
+  "capabilityStills": [
+    "media/projects/tms/tms-category-preview.png",
+    "media/projects/yuhui/yuhui-category-preview.png",
+    "media/projects/plants/plants-category-preview-v2.png"
+  ],
+  "portraitModel": "media/reference/simon-hathaway.glb",
+  "portraitPoster": "media/reference/simon-render-fallback.png",
+  "heroFallback": "media/tms-monitor.png",
+  "openingGraphic": "media/reference/loader.gif",
+  "bodyCrop": {
+    "scale": 1,
+    "position": "50% 50%",
+    "origin": "50% 50%"
+  },
+  "capabilityAltTexts": [
+    "TMS enterprise logistics platform",
+    "Yuhui consumer app interface collection",
+    "PLANTS responsive website on desktop, tablet and mobile"
+  ],
+  "heroImages": [
+    {
+      "src": "media/tms-monitor.png",
+      "label": "TMS monitoring",
+      "position": "50% 50%"
+    },
+    {
+      "src": "media/projects/yuhui/yuhui-category-preview.png",
+      "label": "Yuhui interfaces",
+      "position": "50% 50%"
+    },
+    {
+      "src": "media/projects/cangjingyou/cangjingyou-interface-montage.png",
+      "label": "Cangjingyou interfaces",
+      "position": "50% 50%"
+    },
+    {
+      "src": "media/projects/plants/plants-category-preview-v2.png",
+      "label": "PLANTS devices",
+      "position": "50% 50%"
+    },
+    {
+      "src": "media/projects/tms/tms-interface-montage.png",
+      "label": "TMS interfaces",
+      "position": "50% 50%"
+    },
+    {
+      "src": "media/projects/yuhui/yuhui-ai-presentation.png",
+      "label": "Yuhui AI",
+      "position": "50% 50%"
+    },
+    {
+      "src": "media/projects/cangjingyou/cangjingyou-components-presentation.png",
+      "label": "Cangjingyou components",
+      "position": "50% 50%"
+    },
+    {
+      "src": "media/projects/plants/plants-tablet-presentation.png",
+      "label": "PLANTS tablet",
+      "position": "50% 50%"
+    },
+    {
+      "src": "media/projects/tms/detail/tms-project-contract-after.png",
+      "label": "TMS contracts",
+      "position": "50% 50%"
+    },
+    {
+      "src": "media/projects/yuhui/yuhui-login-presentation.png",
+      "label": "Yuhui login",
+      "position": "50% 50%"
+    }
+  ]
+}
