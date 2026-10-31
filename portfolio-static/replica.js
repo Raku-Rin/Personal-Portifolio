@@ -74,7 +74,7 @@ const banner=$('#cookie-banner');let dismissed=false;try{dismissed=!!localStorag
 
 $$('a[href]').forEach(a=>a.addEventListener('click',async e=>{const href=a.getAttribute('href');if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
  if(href.startsWith('#')){const target=$(href);if(!target)return;e.preventDefault();if(menuOpen)await setMenu(false);history.pushState(null,'',href);window.scrollTo({top:target.getBoundingClientRect().top+scrollY-36,behavior:reduced?'instant':'smooth'});return}
- if(href==='./'||href.startsWith('./#')||href.startsWith('projects/')||href==='gallery.html'||href==='credits.html'){e.preventDefault();const destination=new URL(href,document.baseURI).href;await wipe(()=>{location.href=destination})}
+ if(href==='./'||href.startsWith('./#')||href.startsWith('projects/')||href==='easter-egg/'||href==='gallery.html'||href==='credits.html'){e.preventDefault();const destination=new URL(href,document.baseURI).href;await wipe(()=>{location.href=destination})}
 }));
 const portrait=$('#portrait-scene');if(portrait){portrait.dataset.model=materials.portraitModel;$('#portrait-fallback').src=materials.portraitPoster;const io=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){import('./portrait.js?v=20261025-final');io.disconnect()}},{rootMargin:'700px'});io.observe(portrait);$('#portrait-reset')?.addEventListener('click',()=>portrait.dispatchEvent(new Event('portrait-reset')))}
 

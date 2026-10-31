@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#242424">
+  <title>Snake Duel — Rin Portfolio</title>
+  <meta name="description" content="A little break from the portfolio. Play Snake against the machine.">
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <header><a class="wordmark" href="../">PORTFOLIO</a><span class="mono edition">HIDDEN IN PLAIN SIGHT / 01</span><a class="exit mono" href="../#contact">[ EXIT GAME ↗ ]</a></header>
+  <main>
+    <section class="heading"><div class="eyebrow mono">AN INTERACTIVE DETOUR</div><h1>SNAKE<span class="outline"> DUEL</span><span class="title-dot">.</span></h1><p>You, the machine, and a little friendly competition.</p></section>
+    <section class="arcade" aria-label="Snake versus computer">
+      <div class="scoreboard mono"><div class="player"><span class="swatch human"></span> YOU <strong id="human-score">00</strong></div><div class="time"><span id="status">READY</span><b id="clock">60<span>S</span></b></div><div class="player machine"><strong id="ai-score">00</strong> CPU <span class="swatch cpu"></span></div></div>
+      <div class="arena-wrap"><canvas id="arena" width="960" height="660" tabindex="0" role="img" aria-label="Snake arena. Use arrow keys or W A S D to move. P or Escape pauses."></canvas><div class="curtain" id="curtain"><div class="curtain-content"><span class="mono" id="overlay-kicker">YOU × MACHINE</span><h2 id="overlay-title">YOUR MOVE.</h2><p id="overlay-copy">Collect +. Find a path. Outlast the machine.</p><button id="start" type="button">[ LET’S PLAY → ]</button><p class="overlay-rules">Walls and both snakes are solid.<br>Survive to 60s? Highest score wins.</p></div></div></div>
+      <div class="arena-bottom mono"><span>+ FOOD / +1 POINT</span><button id="pause" type="button" disabled>[ PAUSE II ]</button><button id="restart" type="button" disabled>[ RESTART ↻ ]</button></div>
+    </section>
+    <div class="controls"><p><span class="mono">HOW TO PLAY</span><br><kbd>↑</kbd><kbd>←</kbd><kbd>↓</kbd><kbd>→</kbd> or <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd><span class="control-note">Move · P / Esc pauses</span></p><div class="dpad" aria-label="Touch direction controls"><button data-dir="up" aria-label="Move up">↑</button><button data-dir="left" aria-label="Move left">←</button><button data-dir="down" aria-label="Move down">↓</button><button data-dir="right" aria-label="Move right">→</button></div><p class="signoff">A small experiment in<br>interaction & play.</p></div>
+    <p class="sr-only" role="status" aria-live="polite" id="announcement"></p>
+    <noscript>This game needs JavaScript. <a href="../">Return to the portfolio.</a></noscript>
+  </main>
+  <footer class="mono"><span>RAKURIN / PLAY LAB</span><a href="../projects/?category=all#all">BACK TO WORK ↗</a><span>NO HIGH STAKES. JUST HIGH SCORES.</span></footer>
+  <script type="module" src="game.js"></script>
+</body>
+</html>
